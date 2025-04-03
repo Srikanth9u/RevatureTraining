@@ -27,7 +27,7 @@ print(count)
 """
 
 def dicegame(player1, player2):
-    ans = 0
+
     count1,count2 = 0,0
     for i in range(len(player1)):
         if sum(player1[i])/ 36 > sum(player2[i])/36:
